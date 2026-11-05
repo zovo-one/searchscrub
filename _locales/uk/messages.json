@@ -1,0 +1,34 @@
+{
+  "appName": {
+    "message": "SearchScrub - Hide Unwanted Sites in Search Results",
+    "description": "Назва розширення в Chrome Web Store та на панелі інструментів."
+  },
+  "appDesc": {
+    "message": "Приховуйте AI-огляди, рекламу та AI-сміття з Google Пошуку. Правий клік блокує Pinterest, контент-ферми й будь-який домен.",
+    "description": "Опис розширення в Chrome Web Store."
+  },
+  "popupEnable": {
+    "message": "Увімкнути / призупинити SearchScrub",
+    "description": "Підказка для головного перемикача увімк/вимк."
+  },
+  "hideAiOverview": {
+    "message": "Приховувати AI-огляди",
+    "description": "Підпис перемикача."
+  },
+  "hideAiMode": {
+    "message": "Приховувати кнопку AI Mode",
+    "description": "Підпис перемикача."
+  },
+  "hidePaa": {
+    "message": "Приховувати «Люди також шукають»",
+    "description": "Підпис перемикача."
+  },
+  "hideAds": {
+    "message": "Приховувати рекламу",
+    "description": "Підпис перемикача."
+  },
+  "manageBlocklist": {
+    "message": "Керувати чорним списком",
+    "description": "Посилання у футері на сторінку опцій."
+  }
+}

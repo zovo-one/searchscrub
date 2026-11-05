@@ -1,0 +1,34 @@
+{
+  "appName": {
+    "message": "SearchScrub - Hide Unwanted Sites in Search Results",
+    "description": "Extension name shown in the Chrome Web Store and toolbar."
+  },
+  "appDesc": {
+    "message": "ซ่อนภาพรวม AI โฆษณา และขยะ AI ออกจาก Google Search คลิกขวาเพื่อบล็อก Pinterest, content farm และโดเมนใดก็ตาม",
+    "description": "Extension description shown in the Chrome Web Store."
+  },
+  "popupEnable": {
+    "message": "เปิด / หยุด SearchScrub",
+    "description": "Tooltip for the master on/off switch."
+  },
+  "hideAiOverview": {
+    "message": "ซ่อนภาพรวม AI",
+    "description": "Toggle label."
+  },
+  "hideAiMode": {
+    "message": "ซ่อนปุ่ม AI Mode",
+    "description": "Toggle label."
+  },
+  "hidePaa": {
+    "message": "ซ่อนผู้คนยังถาม",
+    "description": "Toggle label."
+  },
+  "hideAds": {
+    "message": "ซ่อนโฆษณา",
+    "description": "Toggle label."
+  },
+  "manageBlocklist": {
+    "message": "จัดการบัญชีบล็อก",
+    "description": "Footer link to the options page."
+  }
+}

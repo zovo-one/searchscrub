@@ -1,0 +1,34 @@
+{
+  "appName": {
+    "message": "SearchScrub - Hide Unwanted Sites in Search Results",
+    "description": "Extension name shown in the Chrome Web Store and toolbar."
+  },
+  "appDesc": {
+    "message": "Slėpkite AI apžvalgas, reklamas ir AI šlamštą „Google” paieškoje. Dešiniu pelės mygtuku blokuokite „Pinterest” ir domenus.",
+    "description": "Extension description shown in the Chrome Web Store."
+  },
+  "popupEnable": {
+    "message": "Įjungti / pristabdyti SearchScrub",
+    "description": "Tooltip for the master on/off switch."
+  },
+  "hideAiOverview": {
+    "message": "Slėpti AI apžvalgas",
+    "description": "Toggle label."
+  },
+  "hideAiMode": {
+    "message": "Slėpti AI Mode mygtuką",
+    "description": "Toggle label."
+  },
+  "hidePaa": {
+    "message": "Slėpti Žmonės taip pat klausia",
+    "description": "Toggle label."
+  },
+  "hideAds": {
+    "message": "Slėpti reklamas",
+    "description": "Toggle label."
+  },
+  "manageBlocklist": {
+    "message": "Valdyti blokavimo sąrašą",
+    "description": "Footer link to the options page."
+  }
+}

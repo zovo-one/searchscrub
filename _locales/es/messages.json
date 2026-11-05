@@ -1,0 +1,34 @@
+{
+  "appName": {
+    "message": "SearchScrub - Hide Unwanted Sites in Search Results",
+    "description": "Extension name shown in the Chrome Web Store and toolbar."
+  },
+  "appDesc": {
+    "message": "Ocultad AI Overviews, anuncios y basura de IA en Google. Clic derecho para bloquear Pinterest, granjas de contenido y dominios.",
+    "description": "Extension description shown in the Chrome Web Store."
+  },
+  "popupEnable": {
+    "message": "Activar / pausar SearchScrub",
+    "description": "Tooltip for the master on/off switch."
+  },
+  "hideAiOverview": {
+    "message": "Ocultar AI Overviews",
+    "description": "Toggle label."
+  },
+  "hideAiMode": {
+    "message": "Ocultar botón AI Mode",
+    "description": "Toggle label."
+  },
+  "hidePaa": {
+    "message": "Ocultar «La gente también pregunta»",
+    "description": "Toggle label."
+  },
+  "hideAds": {
+    "message": "Ocultar anuncios",
+    "description": "Toggle label."
+  },
+  "manageBlocklist": {
+    "message": "Gestionar lista de bloqueo",
+    "description": "Footer link to the options page."
+  }
+}

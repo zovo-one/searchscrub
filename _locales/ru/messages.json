@@ -1,0 +1,34 @@
+{
+  "appName": {
+    "message": "SearchScrub - Hide Unwanted Sites in Search Results",
+    "description": "Название расширения в Chrome Web Store и на панели инструментов."
+  },
+  "appDesc": {
+    "message": "Скрывайте AI-обзоры, рекламу и AI-мусор из Google Поиска. Правый клик, чтобы заблокировать Pinterest, контент-фермы и любой домен.",
+    "description": "Описание расширения в Chrome Web Store."
+  },
+  "popupEnable": {
+    "message": "Включить / приостановить SearchScrub",
+    "description": "Подсказка для главного переключателя вкл./выкл."
+  },
+  "hideAiOverview": {
+    "message": "Скрывать AI-обзоры",
+    "description": "Подпись переключателя."
+  },
+  "hideAiMode": {
+    "message": "Скрывать кнопку AI Mode",
+    "description": "Подпись переключателя."
+  },
+  "hidePaa": {
+    "message": "Скрывать «Люди также ищут»",
+    "description": "Подпись переключателя."
+  },
+  "hideAds": {
+    "message": "Скрывать рекламу",
+    "description": "Подпись переключателя."
+  },
+  "manageBlocklist": {
+    "message": "Управлять чёрным списком",
+    "description": "Ссылка в футере на страницу опций."
+  }
+}

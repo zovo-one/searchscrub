@@ -1,0 +1,34 @@
+{
+  "appName": {
+    "message": "SearchScrub - Hide Unwanted Sites in Search Results",
+    "description": "Extension name shown in the Chrome Web Store and toolbar."
+  },
+  "appDesc": {
+    "message": "Google Search থেকে AI Overviews, বিজ্ঞাপন এবং AI-slop লুকান। Pinterest, কন্টেন্ট ফার্ম এবং যেকোনো ডোমেইন ব্লক করতে ডান-ক্লিক করুন।",
+    "description": "Extension description shown in the Chrome Web Store."
+  },
+  "popupEnable": {
+    "message": "SearchScrub চালু / বিরতি দিন",
+    "description": "Tooltip for the master on/off switch."
+  },
+  "hideAiOverview": {
+    "message": "AI Overviews লুকান",
+    "description": "Toggle label."
+  },
+  "hideAiMode": {
+    "message": "AI Mode বোতাম লুকান",
+    "description": "Toggle label."
+  },
+  "hidePaa": {
+    "message": "'মানুষ এছাড়াও জিজ্ঞাসা করে' লুকান",
+    "description": "Toggle label."
+  },
+  "hideAds": {
+    "message": "বিজ্ঞাপন লুকান",
+    "description": "Toggle label."
+  },
+  "manageBlocklist": {
+    "message": "ব্লকতালিকা পরিচালনা করুন",
+    "description": "Footer link to the options page."
+  }
+}

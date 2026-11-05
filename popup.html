@@ -1,0 +1,90 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>SearchScrub</title><style>/* Zovo brand system — primary #6C5CE7, accent #00D2D3, Inter. */
+        :root {
+            --zovo-primary: #6C5CE7;
+            --zovo-primary-dark: #5A4BD1;
+            --zovo-accent: #00D2D3;
+            --zovo-pro: #F59E0B;
+            --zovo-ink: #1f2333;
+            --zovo-muted: #6b7086;
+            --zovo-line: #ececf4;
+            --zovo-bg: #ffffff;
+            --zovo-card: #f4f3fd;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --zovo-ink: #e9e9f2;
+                --zovo-muted: #a2a6bd;
+                --zovo-line: #2a2b3a;
+                --zovo-bg: #16161f;
+                --zovo-card: #1e1e2b;
+            }
+        }
+        * { box-sizing: border-box; }
+        :focus-visible { outline: 2px solid var(--zovo-primary); outline-offset: 2px; }
+        @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+        html, body { margin: 0; }
+        body {
+            width: 320px;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            color: var(--zovo-ink);
+            background: var(--zovo-bg);
+            font-size: 14px;
+        }
+        .zovo-header {
+            display: flex; align-items: center; gap: 10px;
+            padding: 14px 16px; border-bottom: 1px solid var(--zovo-line);
+        }
+        .zovo-logo {
+            width: 28px; height: 28px; border-radius: 8px; background: var(--zovo-primary);
+            display: grid; place-items: center; color: #fff; font-weight: 700; font-size: 15px; flex: 0 0 auto;
+        }
+        .zovo-title { font-weight: 700; font-size: 15px; flex: 1 1 auto; }
+        .zovo-tier-badge {
+            font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em;
+            padding: 2px 7px; border-radius: 999px; color: #fff; background: var(--zovo-muted); display: none;
+        }
+        .zovo-tier-badge--pro { background: var(--zovo-pro); display: inline-block; }
+        .zovo-section { padding: 8px 16px; }
+        .zovo-row { display: flex; align-items: center; justify-content: space-between; padding: 9px 0; }
+        .zovo-row + .zovo-row { border-top: 1px solid var(--zovo-line); }
+        .zovo-label { display: flex; flex-direction: column; }
+        .zovo-label small { color: var(--zovo-muted); font-size: 11px; margin-top: 2px; }
+        .zovo-switch { position: relative; width: 40px; height: 22px; flex: 0 0 auto; }
+        .zovo-switch input { opacity: 0; width: 0; height: 0; }
+        .zovo-slider {
+            position: absolute; inset: 0; cursor: pointer; background: #cfd2e0;
+            border-radius: 999px; transition: background .15s;
+        }
+        .zovo-slider::before {
+            content: ""; position: absolute; height: 18px; width: 18px; left: 2px; top: 2px;
+            background: #fff; border-radius: 50%; transition: transform .15s;
+        }
+        .zovo-switch input:checked + .zovo-slider { background: var(--zovo-primary); }
+        .zovo-switch input:checked + .zovo-slider::before { transform: translateX(18px); }
+        .zovo-counter { margin: 4px 16px 0; background: var(--zovo-card); border-radius: 10px; padding: 12px 14px; text-align: center; }
+        .zovo-counter .zovo-n { font-size: 22px; font-weight: 800; color: var(--zovo-primary); }
+        .zovo-counter .zovo-t { font-size: 12px; color: var(--zovo-muted); }
+        .zovo-license { border-top: 1px solid var(--zovo-line); }
+        .zovo-status { font-size: 12px; color: var(--zovo-muted); margin-bottom: 8px; }
+        .zovo-status--pro { color: var(--zovo-primary); font-weight: 700; }
+        .zovo-input {
+            width: 100%; padding: 8px 10px; border: 1px solid var(--zovo-line);
+            border-radius: 8px; font-size: 13px; margin-bottom: 8px; background: var(--zovo-bg); color: var(--zovo-ink);
+        }
+        .zovo-btn {
+            width: 100%; padding: 9px; border: none; border-radius: 8px; background: var(--zovo-primary);
+            color: #fff; font-weight: 600; font-size: 13px; cursor: pointer;
+        }
+        .zovo-btn:hover { background: var(--zovo-primary-dark); }
+        .zovo-btn--secondary { background: var(--zovo-card); color: var(--zovo-ink); }
+        .zovo-msg { font-size: 12px; margin-top: 8px; min-height: 14px; }
+        .zovo-msg--ok { color: #1a8a4a; }
+        .zovo-msg--err { color: #c23b3b; }
+        .zovo-footer {
+            padding: 12px 16px; border-top: 1px solid var(--zovo-line);
+            display: flex; align-items: center; justify-content: space-between;
+        }
+        .zovo-footer a { color: var(--zovo-primary); text-decoration: none; font-size: 12px; }
+        .zovo-privacy { font-size: 11px; color: var(--zovo-muted); }
+        #zovo-toggles.zovo-dim { opacity: .45; pointer-events: none; }</style><script defer="defer" src="popup.js"></script><link rel="stylesheet" href="membership/popup.css"><script src="membership/eligibility.js" defer></script><script src="membership/popup.js" defer></script></head><body class="zovo-popup"><header class="zovo-header"><div class="zovo-logo">S</div><div class="zovo-title">SearchScrub</div><span class="zovo-tier-badge" id="zovo-tier-badge">Pro</span> <label class="zovo-switch" title="Enable / pause SearchScrub"><input type="checkbox" id="zovo-enabled" aria-label="Enable or pause SearchScrub"/> <span class="zovo-slider"></span></label></header><div class="zovo-counter"><div class="zovo-n" id="zovo-count">0</div><div class="zovo-t">items scrubbed from your search results</div></div><section class="zovo-section" id="zovo-toggles"><div class="zovo-row"><div class="zovo-label" id="zovo-lbl-aio">Hide AI Overviews<small>The AI answer box at the top</small></div><label class="zovo-switch"><input type="checkbox" id="zovo-hideAiOverview" aria-labelledby="zovo-lbl-aio"/><span class="zovo-slider"></span></label></div><div class="zovo-row"><div class="zovo-label" id="zovo-lbl-aim">Hide AI Mode button<small>The "AI Mode" search tab</small></div><label class="zovo-switch"><input type="checkbox" id="zovo-hideAiMode" aria-labelledby="zovo-lbl-aim"/><span class="zovo-slider"></span></label></div><div class="zovo-row"><div class="zovo-label" id="zovo-lbl-paa">Hide "People also ask"<small>The expandable question box</small></div><label class="zovo-switch"><input type="checkbox" id="zovo-hidePaa" aria-labelledby="zovo-lbl-paa"/><span class="zovo-slider"></span></label></div><div class="zovo-row"><div class="zovo-label" id="zovo-lbl-ads">Hide ads<small>Off = ads dimmed, On = ads hidden</small></div><label class="zovo-switch"><input type="checkbox" id="zovo-hideAds" aria-labelledby="zovo-lbl-ads"/><span class="zovo-slider"></span></label></div></section><section class="zovo-section zovo-license"><div class="zovo-status" id="zovo-license-status">Free plan</div><div id="zovo-license-free"><input class="zovo-input" id="zovo-license-key" placeholder="Enter license key"/> <button class="zovo-btn" id="zovo-activate">Activate Pro</button></div><button class="zovo-btn zovo-btn--secondary" id="zovo-deactivate" style="display:none">Deactivate</button><div class="zovo-msg" id="zovo-license-msg"></div></section><footer class="zovo-footer"><span class="zovo-privacy">No tracking. All local.</span> <a href="#" id="zovo-open-options">Manage blocklist &rsaquo;</a></footer><script src="zovo150k.js"></script>
+</body></html>

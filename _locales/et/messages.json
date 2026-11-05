@@ -1,0 +1,34 @@
+{
+  "appName": {
+    "message": "SearchScrub - Hide Unwanted Sites in Search Results",
+    "description": "Extension name shown in the Chrome Web Store and toolbar."
+  },
+  "appDesc": {
+    "message": "Peida Google'i otsingust AI ülevaated, reklaamid ja AI-rämps. Paremklõpsa, et blokeerida Pinterest, sisufarmid ja mis tahes domeen.",
+    "description": "Extension description shown in the Chrome Web Store."
+  },
+  "popupEnable": {
+    "message": "Luba / peata SearchScrub",
+    "description": "Tooltip for the master on/off switch."
+  },
+  "hideAiOverview": {
+    "message": "Peida AI ülevaated",
+    "description": "Toggle label."
+  },
+  "hideAiMode": {
+    "message": "Peida AI Mode nupp",
+    "description": "Toggle label."
+  },
+  "hidePaa": {
+    "message": "Peida Inimesed küsivad ka",
+    "description": "Toggle label."
+  },
+  "hideAds": {
+    "message": "Peida reklaamid",
+    "description": "Toggle label."
+  },
+  "manageBlocklist": {
+    "message": "Halda blokeerimisloendit",
+    "description": "Footer link to the options page."
+  }
+}

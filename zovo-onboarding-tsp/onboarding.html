@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome to SearchScrub</title>
+<link rel="stylesheet" href="onboarding.css">
+</head>
+<body>
+<div class="bg-fx"></div>
+<div class="bg-grid"></div>
+
+<!-- top nav -->
+<nav class="topnav">
+  <div class="brand">
+    <span class="z"><b>zovo</b>.</span>
+    <span class="sep"></span>
+    <span class="prod">SearchScrub</span>
+  </div>
+  <a class="ghlink" href="https://github.com/theluckystrike" target="_blank" rel="noopener">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11 11 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/></svg>
+    Open source <span class="arr">↗</span>
+  </a>
+</nav>
+<div class="progress"><div class="progress-fill" id="progressFill"></div></div>
+
+<div class="stage" id="stage">
+
+  <!-- ============ STEP 1 · THE HOOK ============ -->
+  <section class="step active" data-step="1" data-next="Show me">
+    <div class="center">
+      <span class="kicker">by Zovo · a cleaner Google</span>
+      <h1>Half your search page is<br>ads, tracking redirects<br>and AI <span class="em">filler</span>.</h1>
+      <p class="lede">Somewhere under the AI Overview, the shopping ads and the "People also ask" padding
+        are the ten links you actually searched for. SearchScrub strips the noise and the content-farm
+        results so the real answers are all that's left. Open source, all local, nothing leaves your browser.</p>
+
+      <div class="gauge">
+        <div class="row">
+          <span class="lbl">A typical results page, before SearchScrub</span>
+          <span class="val" style="color:#3ee0a1">answers <small>last</small></span>
+        </div>
+        <div class="track" style="display:flex;gap:3px;background:transparent">
+          <div style="flex:0 0 26%;background:#7c6cf0;border-radius:6px 0 0 6px" title="AI Overview"></div>
+          <div style="flex:0 0 18%;background:#a99bf5" title="Ads"></div>
+          <div style="flex:0 0 20%;background:#c9c0f8" title="People also ask"></div>
+          <div style="flex:0 0 14%;background:#e4dffb" title="Content farms"></div>
+          <div style="flex:0 0 22%;background:#3ee0a1;border-radius:0 6px 6px 0" title="Real results"></div>
+        </div>
+        <div class="sub">AI Overview, ads, "People also ask" and content-farm links push the real
+          results down the page. SearchScrub clears them so answers sit at the top.</div>
+      </div>
+
+      <div class="chips-row">
+        <span class="chip-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Open source</span>
+        <span class="chip-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Zero data collection</span>
+        <span class="chip-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Manifest V3</span>
+        <span class="chip-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 12h8"/></svg>Runs only on Google, on your device</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STEP 2 · INSTANT WIN ============ -->
+  <section class="step" data-step="2" data-next="Make it mine">
+    <div class="center">
+      <span class="kicker">The same search, minus the clutter</span>
+      <h2>The same page, <span class="em">scrubbed</span>.</h2>
+      <p class="lede">SearchScrub reads the page the moment it loads and quietly removes the noise before you
+        even see it. Here's a normal query with the junk pulled out and the real links moved back to the top.</p>
+
+      <div class="demo">
+        <div class="demo-top">
+          <div class="demo-mem done"><span>14</span><small> removed</small></div>
+          <div class="demo-cap">items scrubbed from this search</div>
+        </div>
+        <div class="demo-tabs">
+          <div class="dtab" style="opacity:.5"><span class="fav"></span><span class="nm">AI Overview · summary written by AI</span><span class="saved" style="color:#ff8f8f">removed</span></div>
+          <div class="dtab" style="opacity:.5"><span class="fav"></span><span class="nm">Ad · sponsored shopping block</span><span class="saved" style="color:#ff8f8f">removed</span></div>
+          <div class="dtab" style="opacity:.5"><span class="fav"></span><span class="nm">Pinterest · image board</span><span class="saved" style="color:#ff8f8f">blocked</span></div>
+          <div class="dtab" style="opacity:.5"><span class="fav"></span><span class="nm">People also ask · 4 filler questions</span><span class="saved" style="color:#ff8f8f">removed</span></div>
+          <div class="dtab"><span class="fav"></span><span class="nm">Official docs · the exact answer</span><span class="badge active">kept</span></div>
+          <div class="dtab"><span class="fav"></span><span class="nm">Reddit thread · real discussion</span><span class="badge active">kept</span></div>
+          <div class="dtab"><span class="fav"></span><span class="nm">Stack Overflow · accepted answer</span><span class="badge active">kept</span></div>
+        </div>
+      </div>
+      <p class="demo-note">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        Nothing is sent anywhere. The whole thing runs on your machine, on Google pages only, and you can flip any of it back off.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ STEP 3 · MAKE IT YOURS ============ -->
+  <section class="step" data-step="3" data-next="Save and continue">
+    <div class="center">
+      <span class="kicker">30 seconds to set your taste</span>
+      <h2>Make it <span class="em">yours</span>.</h2>
+      <p class="lede">Sensible defaults are already on. AI Overviews and the AI Mode tab are hidden, ads stay
+        visible but dimmed. Turn any of it up or down, and it takes effect on your next search.</p>
+
+      <div class="setup">
+        <div class="opt tgls">
+          <label class="opt-lbl">What to strip from every results page</label>
+          <div class="tgl-row"><span>Hide AI Overviews, the AI answer box at the top</span>
+            <label class="tgl"><input type="checkbox" checked><span class="tgl-s"></span></label></div>
+          <div class="tgl-row"><span>Hide the AI Mode search tab</span>
+            <label class="tgl"><input type="checkbox" checked><span class="tgl-s"></span></label></div>
+          <div class="tgl-row"><span>Hide "People also ask"</span>
+            <label class="tgl"><input type="checkbox"><span class="tgl-s"></span></label></div>
+          <div class="tgl-row"><span>Hide ads outright, off leaves them dimmed instead</span>
+            <label class="tgl"><input type="checkbox"><span class="tgl-s"></span></label></div>
+        </div>
+        <div class="opt">
+          <label class="opt-lbl">Sites to keep out of your results</label>
+          <div class="chips">
+            <label class="chip"><input type="checkbox" checked data-domain="pinterest.com"><span>Pinterest</span></label>
+            <label class="chip"><input type="checkbox" checked data-domain="quora.com"><span>Quora</span></label>
+            <label class="chip"><input type="checkbox" checked data-domain="medium.com"><span>Medium</span></label>
+            <label class="chip"><input type="checkbox" checked data-domain="w3schools.com"><span>W3Schools</span></label>
+            <label class="chip"><input type="checkbox" data-domain="geeksforgeeks.org"><span>GeeksforGeeks</span></label>
+            <label class="chip"><input type="checkbox" data-domain="chegg.com"><span>Chegg</span></label>
+          </div>
+          <div class="rng-ends"><span>Right-click any result to block its site</span><span>30 blocked out of the box</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STEP 4 · A YEAR IN THE MAKING (legitimacy + proof) ============ -->
+  <section class="step" data-step="4" data-next="See who built it">
+    <div class="center">
+      <span class="kicker">Not a weekend project</span>
+      <h2>A year in the <span class="em">making</span>.</h2>
+      <p class="lede">Google reshuffles its results markup constantly, and a scrubber that guesses wrong hides
+        the wrong thing. So this one is built carefully, in the open, and tested against the layouts Google
+        actually ships. It's a real product, not a hobby.</p>
+
+      <div class="proof-grid">
+        <div class="proof-card"><div class="pv accent">~1 yr</div><div class="pl">full-time development</div></div>
+        <div class="proof-card"><div class="pv mint">MV3</div><div class="pl">modern, sandboxed, no remote code</div></div>
+        <div class="proof-card"><div class="pv accent">100%</div><div class="pl">open source on GitHub (MIT)</div></div>
+        <div class="proof-card"><div class="pv">30</div><div class="pl">content farms filtered out of the box</div></div>
+        <div class="proof-card"><div class="pv">53.5K+</div><div class="pl">people across the Zovo toolkit</div></div>
+        <div class="proof-card"><div class="pv mint">0</div><div class="pl">trackers, nothing sold, ever</div></div>
+      </div>
+
+      <div class="works-note">
+        It also stays out of your way. SearchScrub only wakes up on Google, does its work before the page
+        paints, and keeps a running count of what it pulled so you can see it earning its place. Every rule is
+        a toggle, so if Google changes something and a filter ever misfires, you can switch it off in one click
+        while the fix ships.
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STEP 5 · BUILT BY SOMEONE YOU CAN REACH (win-win) ============ -->
+  <section class="step" data-step="5" data-next="See the membership">
+    <div class="center">
+      <span class="kicker">A real person behind the code</span>
+      <h2>Built by someone you can <span class="em">actually reach</span>.</h2>
+      <p class="lede">Most extensions that mess with Google go quiet the moment Google changes something, then
+        rot. This one has a name, an inbox, and a year of work behind it. The name is Michael Lip, founder of Zovo.</p>
+
+      <div class="receipts">
+        <span class="receipt"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg>70+ PRs merged upstream into Chrome, axios &amp; nicehash</span>
+        <span class="receipt"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg>20 Chrome extensions shipped</span>
+        <span class="receipt"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg>$400K+ delivered, 100% job success</span>
+      </div>
+
+      <div class="reach-cards">
+        <div class="reach-card">
+          <div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z" fill="none"/><path d="M22 6l-10 7L2 6"/></svg></div>
+          <div class="bd"><span class="ttl">Email the person who wrote the code</span><span>A Google update slips something past a filter? You don't file a ticket into a void. You reach Michael directly at <a href="mailto:support@zovo.one">support@zovo.one</a>, and it gets read and patched fast, often the same week.</span></div>
+        </div>
+        <div class="reach-card">
+          <div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.9 21l1.2-6.8-5-4.9 6.9-1z"/></svg></div>
+          <div class="bd"><span class="ttl">You shape what it hides next</span><span>Want a new clutter block or a smarter default blocklist? Tell him and it can land in the next build. Member requests jump the queue by design, so the tool keeps getting sharper instead of standing still.</span></div>
+        </div>
+        <div class="reach-card">
+          <div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <div class="bd"><span class="ttl">Good for both of us, long term</span><span>Chipping in keeps a named developer full-time on the tools you rely on, so they never become the next abandoned extension. You get software that keeps up with Google. He gets to keep building it.</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STEP 6 · ONE MEMBERSHIP (founder + pricing) ============ -->
+  <section class="step" data-step="6">
+    <div class="center">
+      <span class="kicker">Zovo membership · built by one accountable developer</span>
+      <h2>One key, the whole <span class="em">toolkit</span>.</h2>
+      <p class="lede">SearchScrub is free and stays free, every filter, no cap. If it's earned a spot in your
+        browser, one Zovo membership unlocks the other 20 tools Michael builds, under a single license.</p>
+
+      <div class="founder">
+        <img class="pic" src="assets/michael-lip.png" alt="Michael Lip">
+        <div class="body">
+          <div class="nm">Michael Lip
+            <svg class="verified" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 1.8 3-.2 1 2.8 2.6 1.4-.6 2.9 1.4 2.6-2 2.2.2 3-2.8.9-1.4 2.6-2.9-.7-2.5 1.6-2.5-1.6-2.9.7L6.9 21l-2.8-.9.2-3-2-2.2 1.4-2.6-.6-2.9L5.7 6l1-2.8 3 .2z"/><path d="M10.5 13.5l-2-2L7 13l3.5 3.5L17 10l-1.5-1.5z" fill="#05030f"/></svg>
+            <span class="role">· founder, Zovo</span>
+          </div>
+          <p class="cred">Solo developer · 20 Chrome extensions · 70+ PRs merged upstream into Google Chrome, axios &amp; nicehash · $400K+ delivered at 100% job success.</p>
+          <p class="quote">"Top 1% of architects I've ever worked with." <cite>J. McConey, Dir. of Engineering</cite></p>
+          <div class="socials">
+            <a href="https://github.com/theluckystrike" target="_blank" rel="noopener">theluckystrike</a>
+            <a href="https://x.com/_alphashark_" target="_blank" rel="noopener">@_alphashark_</a>
+            <a href="mailto:support@zovo.one">Email me</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing">
+        <div class="pcard">
+          <div class="seg" id="planSeg">
+            <button data-plan="monthly" class="on">Monthly</button>
+            <button data-plan="lifetime">Lifetime <span class="flag">best value</span></button>
+          </div>
+          <div class="price" id="priceRow">
+            <span class="amt" id="priceAmt">$4.99</span><span class="per" id="pricePer">/ month</span>
+          </div>
+          <div class="price-sub" id="priceSub">7-day free trial, no card to start</div>
+
+          <div class="pfeat">
+            <div class="pf"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg></div><div class="tx"><span class="ttl">Every Pro feature, one license</span><span>All of SearchScrub Pro unlocked under a single key.</span></div></div>
+            <div class="pf"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14"/><path d="M5 12h14"/></svg></div><div class="tx"><span class="ttl">New tools included as they ship</span><span>Whatever Michael builds next lands in your account, no upsell.</span></div></div>
+            <div class="pf"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z" fill="none"/><path d="M22 6l-10 7L2 6"/></svg></div><div class="tx"><span class="ttl">Priority support from the founder</span><span>Your email reaches the person who wrote the code, not a queue.</span></div></div>
+            <div class="pf"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.9 21l1.2-6.8-5-4.9 6.9-1z"/></svg></div><div class="tx"><span class="ttl">Your requests jump the queue</span><span>Members steer the roadmap, so the tools bend toward what you need.</span></div></div>
+          </div>
+
+          <div class="reassure-row">
+            <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span id="reassure1">No card to start</span></span>
+            <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg>Cancel anytime</span>
+            <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg>30-day money-back</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq" id="faq">
+        <div class="faq-item"><button class="faq-q">Is SearchScrub really free?<span class="pm">+</span></button>
+          <div class="faq-a"><p>Yes. Every filter, the blocklist and the right-click blocking all work on the free plan with no limit. The membership only unlocks the other 20 Zovo tools, it doesn't lock anything here.</p></div></div>
+        <div class="faq-item"><button class="faq-q">What do I actually get for $4.99?<span class="pm">+</span></button>
+          <div class="faq-a"><p>Every Pro feature under one license, each new one as it ships, and priority support straight from Michael.</p></div></div>
+        <div class="faq-item"><button class="faq-q">Can I cancel?<span class="pm">+</span></button>
+          <div class="faq-a"><p>Anytime, in one click. Lifetime is a single $99 with a 30-day money-back guarantee, so there's zero risk in trying it.</p></div></div>
+      </div>
+
+      <div class="social-proof">Joined by 53,500+ people across the Zovo toolkit, all open source and tracker-free.</div>
+    </div>
+  </section>
+
+  <!-- ============ STEP 7 · ALL SET + FOUNDER SIGN-OFF ============ -->
+  <section class="step" data-step="7" data-next="Start using it">
+    <div class="center">
+      <div class="done-ic"><svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+      <span class="kicker mint">Cleaning your results now</span>
+      <h2>You're all set.</h2>
+      <p class="lede">SearchScrub is live. Your next Google search comes back without the AI Overview, the ads
+        and the content-farm padding, and the popup keeps a tally of everything it pulled.</p>
+
+      <div class="pin">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17v5"/><path d="M9 10.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24V16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V7a1 1 0 0 1 1-1 2 2 0 0 0 0-4H8a2 2 0 0 0 0 4 1 1 0 0 1 1 1z"/></svg>
+        Tip. Click the puzzle icon in Chrome's toolbar and pin SearchScrub so its counter and toggles are one click away.
+      </div>
+
+      <div class="pin">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18"/><path d="M7 12h10"/><path d="M11 18h2"/></svg>
+        See a junk site you never want again? Right-click any Google result and pick "Block from search results" to bury its whole domain.
+      </div>
+
+      <div class="toolkit">
+        <div class="toolkit-head"><span class="t">Part of the Zovo toolkit</span>
+          <a href="https://www.zovo.one" target="_blank" rel="noopener">All extensions ↗</a></div>
+        <div class="tk-item"><div><div class="tn">BeLikeNative</div><div class="td">Rewrite any text, on any site</div></div><span class="meta">26,000+ · 4.7</span></div>
+        <div class="tk-item"><div><div class="tn">Join Zovo · shape the roadmap</div><div class="td">Vote on what gets built next, and members get every extension</div></div><span class="meta">↗</span></div>
+      </div>
+
+      <!-- founder sign-off (photo fits here) -->
+      <div class="signoff">
+        <div class="signoff-head">
+          <img class="pic" src="assets/michael-lip.png" alt="Michael Lip">
+          <div class="who">
+            <div class="nm">Michael Lip
+              <svg class="verified" width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 1.8 3-.2 1 2.8 2.6 1.4-.6 2.9 1.4 2.6-2 2.2.2 3-2.8.9-1.4 2.6-2.9-.7-2.5 1.6-2.5-1.6-2.9.7L6.9 21l-2.8-.9.2-3-2-2.2 1.4-2.6-.6-2.9L5.7 6l1-2.8 3 .2z"/><path d="M10.5 13.5l-2-2L7 13l3.5 3.5L17 10l-1.5-1.5z" fill="#05030f"/></svg>
+            </div>
+            <div class="role">a note from the person who built this</div>
+          </div>
+        </div>
+        <p>I got tired of my own search results. Every query came back with an AI box I didn't ask for, a wall
+          of ads, and three Pinterest links before a single real answer. So I built the version I wanted for
+          myself. Open source, no tracking, nothing sold, and it only ever touches Google pages on your own machine.</p>
+        <p>If a Google update sneaks something past a filter, or you wish it hid one more thing, tell me. Every
+          bug and request is read and fixed by the same person who wrote the code. That's the deal. You use it,
+          I keep making it better.</p>
+        <div class="sig">Michael</div>
+        <div class="reach">
+          <a href="mailto:support@zovo.one">support@zovo.one</a>
+          <a href="https://github.com/theluckystrike" target="_blank" rel="noopener">github.com/theluckystrike</a>
+          <a href="https://x.com/_alphashark_" target="_blank" rel="noopener">@_alphashark_</a>
+        </div>
+        <p class="ps">P.S. SearchScrub costs nothing and always will. Lifetime is $99 once and unlocks every Zovo
+          tool I ever ship, not just this one. Either way, thank you for trusting a real developer over a faceless one.</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- bottom nav -->
+<div class="navbar">
+  <div class="navbar-in">
+    <button class="nbtn back" id="backBtn" hidden>
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>Back
+    </button>
+    <div class="indicator">
+      <span class="counter" id="counter">01 / 07</span>
+      <div class="dots" id="dots">
+        <button class="dot active" data-step="1" aria-label="Step 1"></button>
+        <button class="dot" data-step="2" aria-label="Step 2"></button>
+        <button class="dot" data-step="3" aria-label="Step 3"></button>
+        <button class="dot" data-step="4" aria-label="Step 4"></button>
+        <button class="dot" data-step="5" aria-label="Step 5"></button>
+        <button class="dot" data-step="6" aria-label="Step 6"></button>
+        <button class="dot" data-step="7" aria-label="Step 7"></button>
+      </div>
+    </div>
+    <button class="nbtn next" id="nextBtn">
+      <span id="nextLabel">Show me</span>
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+    </button>
+  </div>
+</div>
+
+<script src="onboarding.js"></script>
+</body>
+</html>

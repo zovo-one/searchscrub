@@ -1,0 +1,34 @@
+{
+  "appName": {
+    "message": "SearchScrub - Hide Unwanted Sites in Search Results",
+    "description": "Extension name shown in the Chrome Web Store and toolbar."
+  },
+  "appDesc": {
+    "message": "Sembunyi Ringkasan AI, iklan & sampah AI dari Google Search. Klik kanan sekat Pinterest, ladang kandungan & mana-mana domain.",
+    "description": "Extension description shown in the Chrome Web Store."
+  },
+  "popupEnable": {
+    "message": "Hidupkan / jeda SearchScrub",
+    "description": "Tooltip for the master on/off switch."
+  },
+  "hideAiOverview": {
+    "message": "Sembunyi Ringkasan AI",
+    "description": "Toggle label."
+  },
+  "hideAiMode": {
+    "message": "Sembunyi butang AI Mode",
+    "description": "Toggle label."
+  },
+  "hidePaa": {
+    "message": "Sembunyi Orang juga bertanya",
+    "description": "Toggle label."
+  },
+  "hideAds": {
+    "message": "Sembunyi iklan",
+    "description": "Toggle label."
+  },
+  "manageBlocklist": {
+    "message": "Urus senarai sekat",
+    "description": "Footer link to the options page."
+  }
+}

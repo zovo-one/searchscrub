@@ -1,0 +1,34 @@
+{
+  "appName": {
+    "message": "SearchScrub - Hide Unwanted Sites in Search Results",
+    "description": "Extension name shown in the Chrome Web Store and toolbar."
+  },
+  "appDesc": {
+    "message": "הסתרת סקירות AI, מודעות ותוכן AI נחות מחיפוש Google. לחיצה ימנית לחסימת Pinterest, חוות תוכן וכל דומיין.",
+    "description": "Extension description shown in the Chrome Web Store."
+  },
+  "popupEnable": {
+    "message": "הפעלה / השהיית SearchScrub",
+    "description": "Tooltip for the master on/off switch."
+  },
+  "hideAiOverview": {
+    "message": "הסתרת סקירות AI",
+    "description": "Toggle label."
+  },
+  "hideAiMode": {
+    "message": "הסתרת כפתור מצב AI",
+    "description": "Toggle label."
+  },
+  "hidePaa": {
+    "message": "הסתרת \"אנשים גם שואלים\"",
+    "description": "Toggle label."
+  },
+  "hideAds": {
+    "message": "הסתרת מודעות",
+    "description": "Toggle label."
+  },
+  "manageBlocklist": {
+    "message": "ניהול רשימת חסימה",
+    "description": "Footer link to the options page."
+  }
+}

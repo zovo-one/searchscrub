@@ -1,0 +1,34 @@
+{
+  "appName": {
+    "message": "SearchScrub - Hide Unwanted Sites in Search Results",
+    "description": "Extension name shown in the Chrome Web Store and toolbar."
+  },
+  "appDesc": {
+    "message": "Google Search-இல் AI Overviews, விளம்பரங்கள், AI-slop மறைக்கவும். Pinterest, உள்ளடக்க பண்ணைகள், டொமைன்களை வலது-கிளிக்கில் தடுங்கள்.",
+    "description": "Extension description shown in the Chrome Web Store."
+  },
+  "popupEnable": {
+    "message": "SearchScrub-ஐ இயக்கு / இடைநிறுத்து",
+    "description": "Tooltip for the master on/off switch."
+  },
+  "hideAiOverview": {
+    "message": "AI Overviews-ஐ மறைக்கவும்",
+    "description": "Toggle label."
+  },
+  "hideAiMode": {
+    "message": "AI Mode பொத்தானை மறைக்கவும்",
+    "description": "Toggle label."
+  },
+  "hidePaa": {
+    "message": "'மக்கள் கேட்பதும்' மறைக்கவும்",
+    "description": "Toggle label."
+  },
+  "hideAds": {
+    "message": "விளம்பரங்களை மறைக்கவும்",
+    "description": "Toggle label."
+  },
+  "manageBlocklist": {
+    "message": "தடுப்புப்பட்டியலை நிர்வகிக்கவும்",
+    "description": "Footer link to the options page."
+  }
+}

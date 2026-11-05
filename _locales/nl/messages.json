@@ -1,0 +1,34 @@
+{
+  "appName": {
+    "message": "SearchScrub - Hide Unwanted Sites in Search Results",
+    "description": "Extension name shown in the Chrome Web Store and toolbar."
+  },
+  "appDesc": {
+    "message": "Verberg AI Overviews, advertenties en AI-rommel in Google Search. Rechtsklik om Pinterest, contentfarms en elk domein te blokkeren.",
+    "description": "Extension description shown in the Chrome Web Store."
+  },
+  "popupEnable": {
+    "message": "SearchScrub in- of uitschakelen",
+    "description": "Tooltip for the master on/off switch."
+  },
+  "hideAiOverview": {
+    "message": "AI Overviews verbergen",
+    "description": "Toggle label."
+  },
+  "hideAiMode": {
+    "message": "AI Mode-knop verbergen",
+    "description": "Toggle label."
+  },
+  "hidePaa": {
+    "message": "\"Mensen vragen ook\" verbergen",
+    "description": "Toggle label."
+  },
+  "hideAds": {
+    "message": "Advertenties verbergen",
+    "description": "Toggle label."
+  },
+  "manageBlocklist": {
+    "message": "Blokkeerlijst beheren",
+    "description": "Footer link to the options page."
+  }
+}

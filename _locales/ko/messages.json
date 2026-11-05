@@ -1,0 +1,34 @@
+{
+  "appName": {
+    "message": "SearchScrub - Hide Unwanted Sites in Search Results",
+    "description": "Chrome 웹 스토어와 툴바에 표시되는 확장 프로그램 이름."
+  },
+  "appDesc": {
+    "message": "Google 검색에서 AI Overviews, 광고, AI 저품질 콘텐츠를 숨깁니다. 우클릭으로 Pinterest, 콘텐츠 팜, 모든 도메인을 차단하세요.",
+    "description": "Chrome 웹 스토어에 표시되는 확장 프로그램 설명."
+  },
+  "popupEnable": {
+    "message": "SearchScrub 활성화 / 일시 중지",
+    "description": "마스터 켜기/끄기 스위치의 툴팁."
+  },
+  "hideAiOverview": {
+    "message": "AI Overviews 숨기기",
+    "description": "토글 라벨."
+  },
+  "hideAiMode": {
+    "message": "AI Mode 버튼 숨기기",
+    "description": "토글 라벨."
+  },
+  "hidePaa": {
+    "message": "「다른 사람들도 묻는 질문」숨기기",
+    "description": "토글 라벨."
+  },
+  "hideAds": {
+    "message": "광고 숨기기",
+    "description": "토글 라벨."
+  },
+  "manageBlocklist": {
+    "message": "차단 목록 관리",
+    "description": "옵션 페이지로 가는 푸터 링크."
+  }
+}

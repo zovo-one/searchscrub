@@ -1,0 +1,34 @@
+{
+  "appName": {
+    "message": "SearchScrub - Hide Unwanted Sites in Search Results",
+    "description": "Extension name shown in the Chrome Web Store and toolbar."
+  },
+  "appDesc": {
+    "message": "Google Search मधून AI Overviews, जाहिराती व AI-slop लपवा. Pinterest, कंटेंट फार्म व कोणतेही डोमेन राइट-क्लिकने ब्लॉक करा.",
+    "description": "Extension description shown in the Chrome Web Store."
+  },
+  "popupEnable": {
+    "message": "SearchScrub चालू / थांबवा",
+    "description": "Tooltip for the master on/off switch."
+  },
+  "hideAiOverview": {
+    "message": "AI Overviews लपवा",
+    "description": "Toggle label."
+  },
+  "hideAiMode": {
+    "message": "AI Mode बटण लपवा",
+    "description": "Toggle label."
+  },
+  "hidePaa": {
+    "message": "'लोक हे देखील विचारतात' लपवा",
+    "description": "Toggle label."
+  },
+  "hideAds": {
+    "message": "जाहिराती लपवा",
+    "description": "Toggle label."
+  },
+  "manageBlocklist": {
+    "message": "ब्लॉकयादी व्यवस्थापित करा",
+    "description": "Footer link to the options page."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "appName": {
+    "message": "SearchScrub - Hide Unwanted Sites in Search Results",
+    "description": "Extension name shown in the Chrome Web Store and toolbar."
+  },
+  "appDesc": {
+    "message": "مخفی کردن نمای کلی‌های هوش مصنوعی، تبلیغات و محتوای بی‌کیفیت در جستجوی Google. کلیک راست برای مسدودسازی Pinterest و مزارع محتوا.",
+    "description": "Extension description shown in the Chrome Web Store."
+  },
+  "popupEnable": {
+    "message": "فعال‌سازی / توقف موقت SearchScrub",
+    "description": "Tooltip for the master on/off switch."
+  },
+  "hideAiOverview": {
+    "message": "مخفی کردن نمای کلی‌های هوش مصنوعی",
+    "description": "Toggle label."
+  },
+  "hideAiMode": {
+    "message": "مخفی کردن دکمه حالت هوش مصنوعی",
+    "description": "Toggle label."
+  },
+  "hidePaa": {
+    "message": "مخفی کردن «افراد نیز می‌پرسند»",
+    "description": "Toggle label."
+  },
+  "hideAds": {
+    "message": "مخفی کردن تبلیغات",
+    "description": "Toggle label."
+  },
+  "manageBlocklist": {
+    "message": "مدیریت فهرست مسدودسازی",
+    "description": "Footer link to the options page."
+  }
+}

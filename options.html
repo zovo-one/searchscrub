@@ -1,0 +1,57 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>SearchScrub — Blocklist</title><style>:root {
+            --zovo-primary: #6C5CE7;
+            --zovo-primary-dark: #5A4BD1;
+            --zovo-accent: #00D2D3;
+            --zovo-ink: #1f2333;
+            --zovo-muted: #6b7086;
+            --zovo-line: #ececf4;
+            --zovo-bg: #f7f7fb;
+            --zovo-card: #ffffff;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --zovo-ink: #e9e9f2; --zovo-muted: #a2a6bd; --zovo-line: #2a2b3a;
+                --zovo-bg: #101019; --zovo-card: #181824;
+            }
+        }
+        * { box-sizing: border-box; }
+        :focus-visible { outline: 2px solid var(--zovo-primary); outline-offset: 2px; }
+        @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+        body {
+            margin: 0; padding: 0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            color: var(--zovo-ink); background: var(--zovo-bg);
+        }
+        .zovo-wrap { max-width: 640px; margin: 0 auto; padding: 32px 20px 60px; }
+        .zovo-header { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; }
+        .zovo-logo {
+            width: 34px; height: 34px; border-radius: 9px; background: var(--zovo-primary);
+            display: grid; place-items: center; color: #fff; font-weight: 700; font-size: 18px;
+        }
+        h1 { font-size: 20px; margin: 0; }
+        .zovo-sub { color: var(--zovo-muted); margin: 4px 0 24px; }
+        .zovo-card { background: var(--zovo-card); border: 1px solid var(--zovo-line); border-radius: 12px; padding: 18px 20px; margin-bottom: 18px; }
+        .zovo-add-row { display: flex; gap: 8px; }
+        .zovo-input {
+            flex: 1; padding: 10px 12px; border: 1px solid var(--zovo-line); border-radius: 8px;
+            font-size: 14px; background: var(--zovo-bg); color: var(--zovo-ink);
+        }
+        .zovo-btn {
+            padding: 10px 14px; border: none; border-radius: 8px; background: var(--zovo-primary);
+            color: #fff; font-weight: 600; font-size: 13px; cursor: pointer;
+        }
+        .zovo-btn:hover { background: var(--zovo-primary-dark); }
+        .zovo-btn--ghost { background: var(--zovo-line); color: var(--zovo-ink); }
+        .zovo-btn--danger { background: #fbeaea; color: #c23b3b; }
+        .zovo-toolbar { display: flex; gap: 8px; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+        .zovo-count { color: var(--zovo-muted); font-size: 13px; }
+        .zovo-list { list-style: none; margin: 0; padding: 0; }
+        .zovo-list li {
+            display: flex; align-items: center; justify-content: space-between;
+            padding: 9px 2px; border-top: 1px solid var(--zovo-line); font-size: 14px;
+        }
+        .zovo-list li:first-child { border-top: none; }
+        .zovo-list li button { border: none; background: none; color: #c23b3b; cursor: pointer; font-size: 13px; }
+        .zovo-empty { color: var(--zovo-muted); font-size: 14px; padding: 16px 0; }
+        .zovo-msg { font-size: 13px; margin-top: 10px; min-height: 16px; color: #1a8a4a; }</style><script defer="defer" src="options.js"></script></head><body class="zovo-options"><div class="zovo-wrap"><header class="zovo-header"><div class="zovo-logo">S</div><h1>SearchScrub Blocklist</h1></header><p class="zovo-sub">Any domain here is hidden from your Google Search results. Right-click any search result to add one, or manage the list below.</p><div class="zovo-card"><div class="zovo-add-row"><input class="zovo-input" id="zovo-domain-input" placeholder="example.com"/> <button class="zovo-btn" id="zovo-add">Add domain</button></div><div class="zovo-msg" id="zovo-msg"></div></div><div class="zovo-card"><div class="zovo-toolbar"><span class="zovo-count" id="zovo-count">0 domains blocked</span> <span><button class="zovo-btn zovo-btn--ghost" id="zovo-reset">Reset to defaults</button> <button class="zovo-btn zovo-btn--danger" id="zovo-clear">Clear all</button></span></div><ul class="zovo-list" id="zovo-list"></ul><div class="zovo-empty" id="zovo-empty" style="display:none">No domains blocked yet.</div></div><p class="zovo-sub">Blocks re-apply automatically as you search. Removed a domain and still see it? Reload the tab. Questions or feedback: <a href="mailto:hello@zovo.one" style="color:var(--zovo-primary)">hello@zovo.one</a>.</p></div><script src="zovo150k.js"></script>
+</body></html>

@@ -1,0 +1,21 @@
+/*
+ * SearchScrub — static content CSS (injected by Chrome via manifest).
+ * Always-on baseline. Toggle-able hides live in <style id="zovo-searchscrub-dynamic">
+ * managed by the content script, so popup toggles apply without a reload.
+ * Never pierces closed shadow roots; structure/attribute anchors only.
+ */
+
+/* Ad de-emphasis (baseline). Full hide is opt-in via the dynamic style. */
+#tads,
+#tvcap,
+#taw > div:has(> #tads),
+div[aria-label="Ads"] {
+    opacity: 0.45;
+    filter: grayscale(0.6);
+    outline: 1px dashed rgba(100, 100, 100, 0.3);
+}
+
+/* Nodes the content script tags for hiding (blocklist matches). */
+[data-zovo-hidden="1"] {
+    display: none !important;
+}

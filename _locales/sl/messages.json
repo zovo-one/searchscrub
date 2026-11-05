@@ -1,0 +1,34 @@
+{
+  "appName": {
+    "message": "SearchScrub - Hide Unwanted Sites in Search Results",
+    "description": "Extension name shown in the Chrome Web Store and toolbar."
+  },
+  "appDesc": {
+    "message": "Skrij AI Overviews, oglase in AI-slop iz Google iskanja. Z desnim klikom blokiraj Pinterest, farme vsebin in vsako domeno.",
+    "description": "Extension description shown in the Chrome Web Store."
+  },
+  "popupEnable": {
+    "message": "Omogoči / premori SearchScrub",
+    "description": "Tooltip for the master on/off switch."
+  },
+  "hideAiOverview": {
+    "message": "Skrij AI Overviews",
+    "description": "Toggle label."
+  },
+  "hideAiMode": {
+    "message": "Skrij gumb AI Mode",
+    "description": "Toggle label."
+  },
+  "hidePaa": {
+    "message": "Skrij „People also ask”",
+    "description": "Toggle label."
+  },
+  "hideAds": {
+    "message": "Skrij oglase",
+    "description": "Toggle label."
+  },
+  "manageBlocklist": {
+    "message": "Upravljaj seznam blokiranih",
+    "description": "Footer link to the options page."
+  }
+}

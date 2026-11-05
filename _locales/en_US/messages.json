@@ -1,0 +1,34 @@
+{
+  "appName": {
+    "message": "SearchScrub - Hide Unwanted Sites in Search Results",
+    "description": "Extension name shown in the Chrome Web Store listing, the extensions page, and the toolbar tooltip."
+  },
+  "appDesc": {
+    "message": "Hide AI Overviews, ads & AI-slop from Google Search. Right-click to block Pinterest, content farms & any domain.",
+    "description": "Extension description shown in the Chrome Web Store."
+  },
+  "popupEnable": {
+    "message": "Enable / pause SearchScrub",
+    "description": "Tooltip for the master on/off switch."
+  },
+  "hideAiOverview": {
+    "message": "Hide AI Overviews",
+    "description": "Toggle label."
+  },
+  "hideAiMode": {
+    "message": "Hide AI Mode button",
+    "description": "Toggle label."
+  },
+  "hidePaa": {
+    "message": "Hide People also ask",
+    "description": "Toggle label."
+  },
+  "hideAds": {
+    "message": "Hide ads",
+    "description": "Toggle label."
+  },
+  "manageBlocklist": {
+    "message": "Manage blocklist",
+    "description": "Footer link to the options page."
+  }
+}

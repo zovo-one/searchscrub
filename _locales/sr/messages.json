@@ -1,0 +1,34 @@
+{
+  "appName": {
+    "message": "SearchScrub - Hide Unwanted Sites in Search Results",
+    "description": "Име проширења у Chrome Web Store-у и на траци са алаткама."
+  },
+  "appDesc": {
+    "message": "Сакријте AI прегледе, огласе и AI-ћорак из Google претраге. Десни клик да блокирате Pinterest, фарме садржаја и било који домен.",
+    "description": "Опис проширења у Chrome Web Store-у."
+  },
+  "popupEnable": {
+    "message": "Укључи / паузирај SearchScrub",
+    "description": "Објашњење за главни укљ./искљ. прекидач."
+  },
+  "hideAiOverview": {
+    "message": "Сакриј AI прегледе",
+    "description": "Ознака прекидача."
+  },
+  "hideAiMode": {
+    "message": "Сакриј дугме AI Mode",
+    "description": "Ознака прекидача."
+  },
+  "hidePaa": {
+    "message": "Сакриј „Људи такође питају”",
+    "description": "Ознака прекидача."
+  },
+  "hideAds": {
+    "message": "Сакриј огласе",
+    "description": "Ознака прекидача."
+  },
+  "manageBlocklist": {
+    "message": "Управљај списком блокирања",
+    "description": "Веза у подножју ка страници са опцијама."
+  }
+}

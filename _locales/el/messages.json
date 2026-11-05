@@ -1,0 +1,34 @@
+{
+  "appName": {
+    "message": "SearchScrub - Hide Unwanted Sites in Search Results",
+    "description": "Όνομα επέκτασης στο Chrome Web Store και στη γραμμή εργαλείων."
+  },
+  "appDesc": {
+    "message": "Αποκρύψτε AI επισκοπήσεις, διαφημίσεις και AI-σκουπίδια από την Google. Δεξί κλικ: μπλοκάρετε Pinterest, φάρμες, τομείς.",
+    "description": "Περιγραφή επέκτασης στο Chrome Web Store."
+  },
+  "popupEnable": {
+    "message": "Ενεργοποίηση / παύση του SearchScrub",
+    "description": "Υπόδειψη για τον κύριο διακόπτη on/off."
+  },
+  "hideAiOverview": {
+    "message": "Απόκρυψη AI επισκοπήσεων",
+    "description": "Ετικέτα διακόπτη."
+  },
+  "hideAiMode": {
+    "message": "Απόκρυψη κουμπιού AI Mode",
+    "description": "Ετικέτα διακόπτη."
+  },
+  "hidePaa": {
+    "message": "Απόκρυψη «Οι χρήστες ρωτούν επίσης»",
+    "description": "Ετικέτα διακόπτη."
+  },
+  "hideAds": {
+    "message": "Απόκρυψη διαφημίσεων",
+    "description": "Ετικέτα διακόπτη."
+  },
+  "manageBlocklist": {
+    "message": "Διαχείριση μαύρης λίστας",
+    "description": "Σύνδεσμος υποσέλιδου στη σελίδα επιλογών."
+  }
+}

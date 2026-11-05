@@ -1,0 +1,34 @@
+{
+  "appName": {
+    "message": "SearchScrub - Hide Unwanted Sites in Search Results",
+    "description": "在 Chrome 网上应用店和工具栏中显示的扩展名称。"
+  },
+  "appDesc": {
+    "message": "从 Google 搜索中隐藏 AI Overviews、广告和 AI 粗制内容。右键即可屏蔽 Pinterest、内容农场及任意域名。",
+    "description": "在 Chrome 网上应用店中显示的扩展说明。"
+  },
+  "popupEnable": {
+    "message": "启用 / 暂停 SearchScrub",
+    "description": "主开关的提示文字。"
+  },
+  "hideAiOverview": {
+    "message": "隐藏 AI Overviews",
+    "description": "开关标签。"
+  },
+  "hideAiMode": {
+    "message": "隐藏 AI Mode 按钮",
+    "description": "开关标签。"
+  },
+  "hidePaa": {
+    "message": "隐藏“人们也问”",
+    "description": "开关标签。"
+  },
+  "hideAds": {
+    "message": "隐藏广告",
+    "description": "开关标签。"
+  },
+  "manageBlocklist": {
+    "message": "管理屏蔽列表",
+    "description": "指向选项页的页脚链接。"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "appName": {
+    "message": "SearchScrub - Hide Unwanted Sites in Search Results",
+    "description": "Име на разширението в Chrome Web Store и лентата с инструменти."
+  },
+  "appDesc": {
+    "message": "Скрийте AI обзори, реклами и AI-боклук от Google Търсене. С десен клик блокирайте Pinterest, ферми за съдържание и всеки домейн.",
+    "description": "Описание на разширението в Chrome Web Store."
+  },
+  "popupEnable": {
+    "message": "Включете / паузирайте SearchScrub",
+    "description": "Подсказка за главния превключвател вкл./изкл."
+  },
+  "hideAiOverview": {
+    "message": "Скривай AI обзорите",
+    "description": "Етикет на превключвателя."
+  },
+  "hideAiMode": {
+    "message": "Скривай бутона AI Mode",
+    "description": "Етикет на превключвателя."
+  },
+  "hidePaa": {
+    "message": "Скривай „Хората питат също”",
+    "description": "Етикет на превключвателя."
+  },
+  "hideAds": {
+    "message": "Скривай рекламите",
+    "description": "Етикет на превключвателя."
+  },
+  "manageBlocklist": {
+    "message": "Управление на черния списък",
+    "description": "Долен линк към страницата с опции."
+  }
+}
